@@ -1,10 +1,10 @@
 body {
     margin: 0px;
-    background-color: brown;
+    background-color: #246EA3;
 }
 
 nav {
-    background-color: aqua;
+    background-color: #F0AE4D;
     height: 10vh;
     display: flex;
     flex-direction: row;
@@ -46,7 +46,7 @@ main {
 }
 
 .mainarticles {
-    background-color: orange;
+    background-color: #4DACF0;
     min-height: 60vh;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ main {
 }
 
 .mainarticles article {
-    background-color: aquamarine;
+    background-color: #6BC1FF;
     width: 80vw;
     border-radius: 20px;
     margin: 15px 0px;
@@ -72,7 +72,7 @@ main {
 
 .paginafooter {
     height: 10vh;
-    background-color: pink;
+    background-color: #A36914;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,4 +80,33 @@ main {
 
 .paginafooter p {
     margin-left: 5vw;
+}
+
+.HomeImg {
+    height: 25vh;
+    width: 30vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.duimpie {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.input {
+    margin: 0;
+    text-align: center;
 }
