@@ -1,0 +1,10 @@
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kwart {
+    width: 25vw;
+    text-align: center;
+}
