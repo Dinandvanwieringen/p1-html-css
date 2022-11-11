@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="VakantieBoeken">
+        <section class="NaamGeslacht">
+            Voornaam <input type="text" name="Vnaam" id="Vnaam"> <br>
+            Achternaam <input type="text" name="Anaam" id="Anaam"> <br>
+            Geslacht : <br>
+            Man <input type="radio" name="man" id="man"> Vrouw <input type="radio" name="vrouw" id="vrouw"> <br>
+        </section>
+    
+        <section class="Woonplaats">
+            <br>
+            Straat <input type="text" name="straat" id="straat"> <br>
+            Huisnummer <input type="number" name="Hnummer" id="Hnummer"> <br>
+            Stad <input type="text" name="stad" id="stad"> <br>
+            BSN-nummer <input type="number" name="BSN" id="BSN">
+        </section>
+
+        <section class="vakantie">
+            <br>
+            Vakantie land : <br>
+            Spanje <input type="radio" name="spanje" id="spanje">
+            Suriname <input type="radio" name="suriname" id="suriname">
+            Zweden <input type="radio" name="zweden" id="zweden">
+            Japan <input type="radio" name="japan" id="japan"> 
+            <br> <br>
+            Datum van vertrek <input type="date" name="vertrek" id="vertrek"> <br>
+            Datum van terugkomst <input type="date" name="terugkomst" id="terugkomst"> <br>
+            Aantal reisgenoten <input type="number" name="reisgenoten" id="reisgenoten"> <br>
+        </section>
+
+        <section class="email">
+            <br>
+            Email <input type="email" name="email" id="email"> <br>
+            Wachtwoord <input type="password" name="ww" id="ww">
+        </section>
+
+        <br>
+
+        <input class="boek" type="submit" value="Boek Nu">
+
+    </form>        
+    </body>
+</html>
